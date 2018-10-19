@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/add_user"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Add user" />
+        <item
+            android:id="@+id/view_user"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="View user" />
+        <item
+            android:id="@+id/remove_user"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Remove user" />
+        <item
+            android:id="@+id/update_user"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Update user" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/add_bus"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Add bus" />
+        <item
+            android:id="@+id/view_bus"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="View bus" />
+        <item
+            android:id="@+id/remove_bus"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Remove bus" />
+        <item
+            android:id="@+id/update_bus"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Update bus" />
+
+        <item
+            android:id="@+id/generate_report"
+            android:title="Generate report" />
+        </group>
+
+</menu>

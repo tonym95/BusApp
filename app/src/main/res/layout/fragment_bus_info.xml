@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bus_listview_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:windowBackground"
+    tools:context="com.antonio.busapplication.Activities.BusInfoFragment">
+
+    <ListView
+        android:id="@+id/busListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</FrameLayout>

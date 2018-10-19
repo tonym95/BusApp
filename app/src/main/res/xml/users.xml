@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <users>
+        <user>
+            <email>admin</email>
+            <password>admin</password>
+            <admin_rights>true</admin_rights>
+        </user>
+        <user>
+            <email>antonio</email>
+            <password>pass123</password>
+            <admin_rights>false</admin_rights>
+        </user>
+    </users>
+</PreferenceScreen>

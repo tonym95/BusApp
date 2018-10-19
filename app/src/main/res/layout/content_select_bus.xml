@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.antonio.busapplication.Activities.SelectBusActivity"
+    tools:showIn="@layout/activity_select_bus">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter bus name:"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <EditText
+        android:id="@+id/findBusEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <Button
+        android:id="@+id/findBusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="findBus"
+        android:text="Find bus"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="341dp" />
+</android.support.constraint.ConstraintLayout>

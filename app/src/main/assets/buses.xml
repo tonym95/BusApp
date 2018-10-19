@@ -1,0 +1,30 @@
+<buses>
+    <bus>
+        <bus_id>1</bus_id>
+        <bus_name>35</bus_name>
+        <bus_type>local</bus_type>
+        <route>
+            <id>1</id>
+            <station>
+                <station_name>Observator</station_name>
+            </station>
+            <station>
+                <station_name>Gara</station_name>
+            </station>
+        </route>
+    </bus>
+    <bus>
+        <bus_id>2</bus_id>
+        <bus_name>46B</bus_name>
+        <bus_type>local</bus_type>
+        <route>
+            <id>2</id>
+            <station>
+                <station_name>Observator</station_name>
+            </station>
+            <station>
+                <station_name>Sc Barnutiu</station_name>
+            </station>
+        </route>
+    </bus>
+</buses>
